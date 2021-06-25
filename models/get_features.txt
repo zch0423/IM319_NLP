@@ -1,0 +1,1 @@
+python37 extract_features.py --input_file=../datan/SBIC.v2.tst.csv.txt --output_file=../datan/output_tst.jsonl --vocab_file=../uncased_L-12_H-768_A-12/vocab.txt --bert_config_file=../uncased_L-12_H-768_A-12/bert_config.json --init_checkpoint=../uncased_L-12_H-768_A-12/bert_model.ckpt --layers=-1,-2 --max_seq_length=128 --batch_size=8
